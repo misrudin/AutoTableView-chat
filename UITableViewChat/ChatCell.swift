@@ -47,7 +47,9 @@ class ChatCell: UITableViewCell {
         
         // contraints for message label
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
-        let constraints = [messageLabel.topAnchor.constraint(equalTo: topAnchor,constant: 16),
+        let constraints = [
+        
+        messageLabel.topAnchor.constraint(equalTo: topAnchor,constant: 16),
         messageLabel.bottomAnchor.constraint(equalTo: bottomAnchor,constant: -32),
         messageLabel.widthAnchor.constraint(lessThanOrEqualToConstant: 250),
     
